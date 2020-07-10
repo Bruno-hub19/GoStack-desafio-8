@@ -37,8 +37,6 @@ const CartProvider: React.FC = ({ children }) => {
 
         setProducts(parsedProducts);
       }
-
-      // await AsyncStorage.clear();
     }
 
     loadProducts();
